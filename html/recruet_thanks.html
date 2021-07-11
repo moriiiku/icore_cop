@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>RECRUIT</title>
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="../css/recruet_thanks.css" media="all">
+	<link rel="stylesheet" href="../css/responsive.css">
+	<link rel="stylesheet" href="destyle.css">
+</head>
+<body>
+	<!-- 全体のラップ -->
+	<div class="wrap">
+
+		<!-- ヘッダー -->
+		<header>
+			<!-- <div class="header"> -->
+				<!--▽▽ヘッダーロゴ▽▽-->
+				<div class="logo">
+					<a href="#top">
+						<img src="../img/logo02.png" alt="ヘッダーロゴ" class="logo_header">
+					</a>
+				</div>
+				<!--△△ヘッダーロゴ△△-->
+				<!--▽▽ハンバーガーメニュー▽▽-->
+				<div id="hamburger">
+						<div class="icon">
+								<span></span>
+								<span></span>
+								<span></span>
+						</div>
+				</div>
+				<!--△△ハンバーガーメニュー△△-->
+				<!--▽▽ハンバーガーメニューのリスト▽▽-->
+				<nav class="sm">
+					<ul class="menu_list">
+						<li class="list_item
+						header_nav_about"><a href="#about">ABOUT</a></li>
+						<li class="list_item
+						header_nav" id="recruet"><a href="#recruet">RECRUET</a></li>
+						<li class="list_item
+						header_nav"><a href="#contact">CONTACT</a></li>
+						<li class="list_item
+						header_nav_jpn"><a href="#jpn" id="jpn">JP</a> <a href="#eng" id="eng">EN</a></li>
+					</ul>
+				</nav>
+				<!--△△ハンバーガーメニューのリスト△△-->
+				<!--▽▽ヘッダーリスト▽▽-->
+				<nav class="pc">  
+					<!--pcクラスを追記-->
+					<ul class="menu_list">
+						<li class="list_item
+						header_nav_about"><a href="#about">PC ABOUT</a></li>
+						<li class="list_item
+						header_nav" id="recruet"><a href="#recruet">RECRUET</a></li>
+						<li class="list_item
+						header_nav"><a href="#contact">CONTACT</a></li>
+						<li class="list_item
+						header_nav_jpn"><a href="#jpn" id="jpn">JP</a><a href="#eng" id="eng">EN</a></li>
+					</ul>
+				</nav>
+				<!--△△ヘッダーリスト△△-->
+			<!-- </div> -->
+		</header>
+			
+			
+			<!--▽▽jQuery▽▽-->
+					<script src="jquery-3.6.0.min.js"></script>
+						<script>
+							$('#hamburger').on('click', function(){
+							$('.icon').toggleClass('close');
+							$('.sm').slideToggle();
+							});
+						</script>
+			<!--△△jQuery△△-->
+			
+		<!-- ハンバーガーメニューここまで -->
+
+
+
+		<!-- メインコンテンツ -->
+		<!-- アバウト -->
+		<div class="main">
+			<div class="contents_title">
+				<h1>RECRUET</h1>
+				<p>トップページ > RECRUET > THANKS</p>
+			</div>
+			
+		</div>
+    <div class="thanks_main">
+			<div class="thanks_heading">
+				<h2>Thank You!!</h2>
+			</div>
+
+			<div class="send">
+				<h2>送信が完了しました。</h2>
+			</div>
+			
+			<div class="thanks_text">
+					<p>ご応募いただき、誠にありがとうございます。<br>
+						担当者が確認の上、ご連絡差し上げます。<br>
+						<br>
+						ご連絡まで今しばらくお待ち下さい。</p>
+			</div>
+		</div>
+				<!-- アバウトここまで -->
+
+
+		<!-- フッター -->
+		<footer>
+			<div class="footer">
+				<div class="footer_box">
+					<img src="../img/logo02.png" alt="フッターロゴ" class="logo_footer">
+					<p class="footer_text">Copyright(c) iCore inc. -  Corporate Site All Rights Reserved.</p>
+				</div>
+			</div>
+		</footer>
+		<!-- フッターここまで -->
+
+
+	</div>
+</body>
+</html>

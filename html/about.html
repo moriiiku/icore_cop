@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ABOUT</title>
+		<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+		
+		<link rel="stylesheet" href="../css/about.css" media="all">
+		<link rel="stylesheet" href="../css/responsive.css">
+		<link rel="stylesheet" href="destyle.css">
+	</head>
+	<body>
+		<!-- 全体のラップ -->
+		<div class="wrap">
+			<!-- ヘッダー -->
+			<header>
+				<!-- <div class="header"> -->
+					<!--▽▽ヘッダーロゴ▽▽-->
+					<div class="logo">
+						<a href="#top">
+							<img src="../img/logo02.png" alt="ヘッダーロゴ" class="logo_header">
+						</a>
+					</div>
+					<!--△△ヘッダーロゴ△△-->
+					<!--▽▽ハンバーガーメニュー▽▽-->
+					<div id="hamburger">
+							<div class="icon">
+									<span></span>
+									<span></span>
+									<span></span>
+							</div>
+					</div>
+					<!--△△ハンバーガーメニュー△△-->
+					<!--▽▽ハンバーガーメニューのリスト▽▽-->
+					<nav class="sm">
+						<ul class="menu_list">
+							<li class="list_item
+							header_nav_about" id="about"><a href="#about">ABOUT</a></li>
+							<li class="list_item
+							header_nav"><a href="#recruet">RECRUET</a></li>
+							<li class="list_item
+							header_nav"><a href="#contact">CONTACT</a></li>
+							<li class="list_item
+							header_nav_jpn"><a href="#jpn" id="jpn">JP</a> <a href="#eng" id="eng">EN</a></li>
+						</ul>
+					</nav>
+					<!--△△ハンバーガーメニューのリスト△△-->
+					<!--▽▽ヘッダーリスト▽▽-->
+					<nav class="pc">  
+						<!--pcクラスを追記-->
+						<ul class="menu_list">
+							<li class="list_item
+							header_nav" id="about"><a href="#about">ABOUT</a></li>
+							<li class="list_item
+							header_nav"><a href="#recruet">RECRUET</a></li>
+							<li class="list_item
+							header_nav"><a href="#contact">CONTACT</a></li>
+							<li class="list_item
+							header_nav_jpn"><a href="#jpn" id="jpn">JP</a><a href="#eng" id="eng">EN</a></li>
+						</ul>
+					</nav>
+					<!--△△ヘッダーリスト△△-->
+				<!-- </div> -->
+			</header>
+				
+				
+				<!--▽▽jQuery▽▽-->
+						<script src="jquery-3.6.0.min.js"></script>
+							<script>
+								$('#hamburger').on('click', function(){
+								$('.icon').toggleClass('close');
+								$('.sm').slideToggle();
+								});
+							</script>
+				<!--△△jQuery△△-->
+				
+			<!-- ハンバーガーメニューここまで -->
+
+			
+
+			<!-- メインコンテンツ -->
+			<!-- アバウト -->
+			<div class="main">
+				<div class="contents_title">
+					<h1>ABOUT</h1>
+					<p>トップページ > WORKS</p>
+				</div>
+				<div class="contents_text">
+					<p>TVCMをはじめとする、広告宣伝全般/コミュニケーションコンテンツの企画・制作。</p>
+				</div>
+			</div>
+			<div class="service_list">
+				<div class="heading">
+					<h2>SERVICE</h2>
+				</div>
+				<div class="services">
+					<div class="service">
+						<div class="service_icon">
+							<img src="../img/service_tv.png" class="tv">
+							<p>テレビCM</p>
+						</div>
+					</div>
+					<div class="service">
+						<div class="service_icon">
+							<img src="../img/service_online.png" class="online">
+							<p>オンライン動画</p>
+						</div>
+					</div>
+					<div class="service">
+						<div class="service_icon">
+							<img src="../img/service_signage.png" class="signage">
+							<p>サイネージ映像</p>
+						</div>
+					</div>
+					<div class="service">
+						<div class="service_icon">
+							<img src="../img/service_promotion.png" class="promotion">
+							<p>プロモーション映像</p>
+						</div>
+					</div>
+					<div class="service">
+						<div class="service_icon">
+							<img src="../img/service_music.png" class="music">
+							<p>ミュージックビデオ</p>
+						</div>
+					</div>
+					<div class="service">
+						<div class="service_icon">
+							<img src="../img/service_live.png" class="live">
+							<p>ライブイベント</p>
+						</div>
+					</div>
+				</div>
+			</div>
+					<!-- アバウトここまで -->
+
+					<!-- ワークス -->
+				<div class="works">
+					<div class="works_list">
+						<div class="heading">
+							<h2>WORKS</h2>
+						</div>
+						<div class="work">
+							<ul class="works_list">
+								<li class="work_list">XXX工業株式会社 商品名「タイトル」篇 2018年 テレビCM</li>
+								<li class="work_list">株式会社XXXホールディングス 商品名「XXXX」篇 2018年 PV</li>
+								<li class="work_list">XXX株式会社 商品名 2019年 PV</li>
+								<li class="work_list">一般社団法人XXX機構 商品名「タイトル」篇 2019年 27分インフォマーシャル</li>
+								<li class="work_list">XXX飲料株式会社 商品名「タイトル」篇 2019年 場内ライナービジョン</li>
+								<li class="work_list">TV番組 Xチャンネル「番組名」 2019年</li>
+								<li class="work_list">XXX保険サービス株式会社 保険内容告知「タイトル」篇 2019年 デジタルサイネージ
+								</li>
+								<li class="work_list">株式会社XXX カメラグランプリ2014年「タイトル」篇 2019年 トレインチャンネル
+								</li>
+								<li class="work_list">JR XX 新幹線 デジタルサイネージ 2019年</li>
+								<li class="work_list">株式会社XXX 商品名「タイトル」篇 2019年 トレインチャンネル</li>
+								<li class="work_list">歌手名 LIVE TOUR 2012「タイトル」 2019年 ライブDVD</li>
+								<li class="work_list">歌手名「歌手名 LIVE 10-9-4」 2019年 ライブDVD</li>
+								<li class="work_list">歌手名 歌手名LIVEⅠ～タイトル～ 2019年 ライブDVD</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- ワークスここまで -->
+
+				<!-- コンタクト -->
+				<div class="contacts">
+					<div class="btn_wrapper">
+						<a href="#contact" class="btn btn_contact"><span>CONTACT</span></a>
+
+						<!-- <a href="#contact" class="btn_contact"><span class="contact_btn">CONTACT</span></a> -->
+					</div>
+				</div>
+
+				<!-- 会社情報 -->
+				<div class="company">
+					<div class="company_container">
+						<div class="company_information">
+							<div class="company_name">
+								<h3>iCore株式会社</h3>
+							</div>
+							<div class="company_address">
+								<p>〒151-0053</p>
+								<p>東京都渋谷区代々木3-5-7</p>
+								<p>シグマロイヤルハイツ A403</p>
+							</div>
+							<div class="company_telephone">
+								<p>TEL : 03-6300-6407 </p>
+								<p>FAX : 03-6300-6408</p>
+							</div>
+						</div>
+						<div class="map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.767132739032!2d139.69261661525888!3d35.68273548019405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ccc35993f53%3A0xa68794bd91ff33f9!2z44CSMTUxLTAwNTMg5p2x5Lqs6YO95riL6LC35Yy65Luj44CF5pyo77yT5LiB55uu77yV4oiS77yX!5e0!3m2!1sja!2sjp!4v1624976393644!5m2!1sja!2sjp" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						</div>
+					</div>
+				</div>
+			<!-- </div> 要らないかも-->
+
+			<!-- フッター -->
+			<footer>
+				<div class="footer">
+					<div class="footer_box">
+						<img src="../img/logo02.png" alt="フッターロゴ" class="logo_footer">
+						<p class="footer_text">Copyright(c) iCore inc. -  Corporate Site All Rights Reserved.</p>
+					</div>
+				</div>
+			</footer>
+			<!-- フッターここまで -->
+		</div>
+	</body>
+</html>
