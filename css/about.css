@@ -171,6 +171,7 @@ li.list_item a{
   color: #2B2B2B;
   font-size: 14px;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .contents_text {
@@ -189,6 +190,7 @@ li.list_item a{
 .service_list{
   width: 85%;
   margin: 100px auto;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
