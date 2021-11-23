@@ -92,12 +92,12 @@ footer {
   background-color: #1A1A1A;
 }
 .footer_text {
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
   font-size: 12px;
 }
 
 .logo_footer{
-  font-family: 'Open Sans', sans-serif;
   width: 146px;
   height: auto;
 }
