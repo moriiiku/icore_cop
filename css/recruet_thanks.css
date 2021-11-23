@@ -216,7 +216,9 @@ footer {
   background-color: #1A1A1A;
 }
 .footer_text {
-  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  width: 146px;
+  height: auto;
 }
 
 .logo_footer{
